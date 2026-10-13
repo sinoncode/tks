@@ -10,6 +10,7 @@ import { IndustriesCarousel } from '@/components/home/industries-carousel';
 import { ProjectHighlights } from '@/components/home/project-highlights';
 import { FinalCta } from '@/components/home/final-cta';
 import { CustomSection } from '@/components/home/custom-section';
+import { CustomerCarousel } from '@/components/home/CustomerCarousel';
 
 export function meta({ matches, location }: Route.MetaArgs) {
 	return seo({ matches, location }, {
@@ -26,6 +27,7 @@ export default function HomePage() {
 			<Lifecycle />
 			<ServicesBento />
 			<WhyTechnoKraft />
+			<CustomerCarousel />
 			<Insights />
 			<IndustriesCarousel />
 			<ProjectHighlights />
