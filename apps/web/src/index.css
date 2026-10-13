@@ -1070,8 +1070,8 @@ input:focus, textarea:focus, select:focus { outline: 2px solid #FF7A1A; outline-
 /* Brand column */
 .ft-brand { display: flex; flex-direction: column; align-items: flex-start; }
 .ft-logo { display: inline-block; perspective: 700px; margin-bottom: 4px; }
-.ft-logo-plate { display: inline-grid; place-items: center; padding: 10px 20px; border-radius: 18px; background: rgba(255,255,255,.94); box-shadow: 0 8px 26px -10px rgba(0,0,0,.55), 0 0 34px -12px rgba(255,122,26,.55); transition: transform .25s ease-out, box-shadow .25s ease; transform: rotateX(var(--ry, 0deg)) rotateY(var(--rx, 0deg)); will-change: transform; }
-.ft-logo-plate img { display: block; height: 62px; width: auto; max-width: min(240px, 60vw); object-fit: contain; }
+.ft-logo-plate { display: inline-grid; place-items: center; padding: 10px 20px; border-radius: 10px; background:#fff; box-shadow: 0 8px 26px -10px rgba(0,0,0,.55), 0 0 34px -12px rgba(255,122,26,.55); transition: transform .25s ease-out, box-shadow .25s ease; transform: rotateX(var(--ry, 0deg)) rotateY(var(--rx, 0deg)); will-change: transform; }
+.ft-logo-plate img { display: block; height: 100px; width: 100%; max-width: min(300px, 65vw); margin:auto; object-fit: contain; }
 .ft-logo-word { color: #0B1533; font-weight: 800; font-size: 24px; letter-spacing: -.03em; }
 .ft-logo:hover .ft-logo-plate, .ft-logo:focus-visible .ft-logo-plate { transform: translateY(-4px) rotateX(var(--ry, 0deg)) rotateY(var(--rx, 0deg)); box-shadow: 0 16px 38px -12px rgba(0,0,0,.6), 0 0 52px -10px rgba(255,122,26,.9); }
 .ft-logo:active .ft-logo-plate { transform: translateY(-1px) scale(.985); }

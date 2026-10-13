@@ -27,6 +27,10 @@ export type ServiceCustomSection =
     title: string;
     description: string;
     bullets?: string[];
+    image?: {
+      src: string;
+      alt: string;
+    };
   }
   | {
     kind: 'faq';
@@ -84,6 +88,7 @@ export const services: Service[] = [
     description:
       "End-to-end network deployment services, from site acquisition and civil works to equipment installation, commissioning, testing, and handover.",
 
+
     metaTitle: "Network Deployment & Rollout Services | Networsys",
 
     metaDescription:
@@ -127,6 +132,11 @@ export const services: Service[] = [
         id: "deployment-overview",
 
         title: "What Network Deployment and Rollout Really Involves",
+
+        image: {
+          src: "/images/services/tower.webp",
+          alt: "Telecommunications tower with antennas and equipment",
+        },
 
         description:
           "Network rollout involves much more than installing equipment. It is a coordinated chain of activities, including site acquisition, planning and permitting, structural assessment, civil works, power installation, equipment deployment, transmission connectivity, commissioning, integration, acceptance testing, and documentation. Every stage depends on the successful completion of the previous one, making coordination essential to keeping a programme on schedule.\n\nNetworsys approaches deployment as a managed programme rather than a series of unrelated site visits. For multi-site rollouts, we establish consistent workflows, quality checkpoints, progress tracking, and clear communication between customers, landlords, authorities, vendors, and delivery teams. This helps identify constraints early and maintain consistent delivery standards as the programme scales.",

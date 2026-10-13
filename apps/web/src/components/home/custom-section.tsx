@@ -37,7 +37,7 @@ export function CustomSection() {
 
   return (
     <section className="py-20 md:py-32 bg-background relative overflow-hidden">
-      <div className="container mx-auto px-4 md:px-6 relative z-10 max-w-6xl">
+      <div className="container mx-auto px-4 md:px-6 relative z-10 max-w-9xl">
         <motion.div 
           variants={containerVariants}
           initial="hidden"
@@ -46,7 +46,7 @@ export function CustomSection() {
           className="space-y-24"
         >
           {/* Section 1: First Paragraph Section */}
-          <motion.div variants={itemVariants} className="text-center max-w-3xl mx-auto space-y-6">
+          <motion.div variants={itemVariants} className="text-center max-w-7xl mx-auto space-y-6">
             <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground">
               Empowering the Future of Connectivity
             </h2>
@@ -66,7 +66,7 @@ export function CustomSection() {
           </motion.div>
 
           {/* Section 3: FAQ Section */}
-          <motion.div variants={itemVariants} className="max-w-3xl mx-auto w-full space-y-8">
+          <motion.div variants={itemVariants} className="max-w-7xl mx-auto w-full space-y-8">
             <div className="text-center space-y-4">
               <h3 className="text-2xl md:text-3xl font-bold">Frequently Asked Questions</h3>
               <p className="text-muted-foreground">Find answers to common questions about our services.</p>
@@ -87,7 +87,7 @@ export function CustomSection() {
 
           {/* Section 4: 6 Cards Section */}
           <motion.div variants={itemVariants} className="space-y-12">
-            <div className="text-center space-y-4 max-w-2xl mx-auto">
+            <div className="text-center space-y-4 max-w-7xl mx-auto">
               <h3 className="text-2xl md:text-3xl font-bold">Core Capabilities</h3>
               <p className="text-muted-foreground">Explore the features that set us apart in the industry.</p>
             </div>

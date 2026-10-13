@@ -16,17 +16,17 @@ const customers: Customer[] = [
     name: 'AT&T',
     logo: '/images/client-logo/2.png',
   },
-  {
-    name: 'Idea',
-    logo: '/images/client-logo/3.png',
-  },
+//   {
+//     name: 'Idea',
+//     logo: '/images/client-logo/3.png',
+//   },
   {
     name: 'Safaricom',
     logo: '/images/client-logo/4.png',
   },
   {
-    name: 'Vodafone',
-    logo: '/images/client-logo/5.png',
+    name: 'Vi',
+    logo: '/images/client-logo/9.png',
   },
   {
     name: 'Samsung',

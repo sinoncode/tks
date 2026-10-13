@@ -22,7 +22,7 @@ export function SiteFooter() {
   const { ref, inView } = useInView<HTMLElement>({ threshold: 0.06 });
 
   return (
-    <footer className={`site-footer ft${inView ? ' is-in' : ''}`} ref={ref}>
+    <footer className={`pt-20 site-footer ft${inView ? ' is-in' : ''}`} ref={ref}>
       <Suspense fallback={null}>
         <FooterBackground />
       </Suspense>

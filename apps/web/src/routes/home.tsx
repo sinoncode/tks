@@ -11,6 +11,7 @@ import { ProjectHighlights } from '@/components/home/project-highlights';
 import { FinalCta } from '@/components/home/final-cta';
 import { CustomSection } from '@/components/home/custom-section';
 import { CustomerCarousel } from '@/components/home/CustomerCarousel';
+import { GlobalPresence } from '@/components/home/GlobalPresence';
 
 export function meta({ matches, location }: Route.MetaArgs) {
 	return seo({ matches, location }, {
@@ -33,6 +34,7 @@ export default function HomePage() {
 			<ProjectHighlights />
 			{/* FAQ (Part 5) mounts here, above the final CTA banner. */}
 			<CustomSection />
+			<GlobalPresence />
 			<FinalCta />
 		</main>
 	);

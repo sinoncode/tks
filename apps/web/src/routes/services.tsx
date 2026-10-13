@@ -4,6 +4,7 @@ import { ServicesHero } from '@/components/services/hero';
 import { ServicesFilterGrid } from '@/components/services/filter-grid';
 import { Capabilities } from '@/components/services/capabilities';
 import { CtaBand } from '@/components/cta-band';
+import { GlobalPresence } from '@/components/home/GlobalPresence';
 
 export function meta({ matches, location }: Route.MetaArgs) {
 	return seo({ matches, location }, {
@@ -25,6 +26,8 @@ export default function ServicesPage() {
 				secondaryLabel="Talk to an expert"
 				secondaryHref="/contact"
 			/>
+
+			<GlobalPresence />
 		</main>
 	);
 }

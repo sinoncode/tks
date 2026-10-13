@@ -5,7 +5,7 @@ import { useEnquiryModal } from '@/components/enquiry/provider';
 export function FinalCta() {
   const { open } = useEnquiryModal();
   return (
-    <section className="home-section home-section--cta" id="cta">
+    <section className="home-section  home-section--cta" id="cta">
       <div className="shell">
         <Reveal>
           <div className="cta-banner">
