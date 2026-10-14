@@ -2,7 +2,7 @@ import { FileCheck, Gauge, Map, Target, Users, Workflow } from 'lucide-react';
 
 export const heroCopy = {
   eyebrow: 'TELECOMMUNICATIONS INFRASTRUCTURE',
-  headlineLead: ['Telecommunications', 'Infrastructure,'],
+  headlineLead: ['Telecommunications', 'Infrastructure, Fiber Connection',],
   headlineAccent: ['Built', 'End-to-End'],
   sub: 'From field survey and engineering design to network deployment, integration and optimisation, TechnoKraft delivers the infrastructure behind connected networks.',
 } as const;
