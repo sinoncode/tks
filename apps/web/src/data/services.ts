@@ -543,6 +543,11 @@ export const services: Service[] = [
 
         title: "Why Network Design and Optimisation Belong Together",
 
+         image: {
+          src: "/images/services/Telecommunications Tower Over Sunset Hills.png",
+          alt: "Telecommunications tower with antennas and equipment",
+        },
+
         description:
           "A network design predicts coverage, capacity, and interference using models, assumptions, and available data. Once the network becomes operational, actual traffic patterns, buildings, vegetation, user behaviour, and equipment performance can differ from those predictions. Network optimisation helps close that gap by using real-world measurements to identify where improvements are needed.\n\nTreating design and optimisation as one continuous cycle ensures that valuable engineering insights are not lost. Measurement results improve future planning assumptions, while knowledge of the original design helps engineers determine which optimisation actions are likely to deliver meaningful improvements. This creates a more informed approach to network performance, capacity management, and future investment.",
 
@@ -1015,6 +1020,11 @@ export const services: Service[] = [
         id: "rf-engineering-overview",
 
         title: "What RF Engineering Covers",
+
+         image: {
+          src: "/images/services/Rooftop Telecom Towers Under Blue Skies.png",
+          alt: "Telecommunications tower with antennas and equipment",
+        },
 
         description:
           "RF engineering is the discipline of planning, analysing, and tuning the radio part of a wireless system. It includes selecting sites and antennas, predicting coverage, setting frequencies and power levels, managing interference, and verifying that the built network behaves as designed. Every decision affects how reliably a network serves users across different locations and operating conditions.\n\nRF engineering also connects several stages of the network lifecycle. Planning results inform Network Design & Optimisation, accurate radio parameters support Network Deployment & Rollout, and indoor coverage projects require careful radio design through In-Building Solutions & Small Cells. Connecting these disciplines helps ensure that engineering decisions remain consistent from initial planning through implementation and validation.",
@@ -1561,6 +1571,8 @@ export const services: Service[] = [
         kind: "info",
         id: "indoor-coverage-challenges",
         title: "Why Indoor Coverage Needs Its Own Solution",
+
+         image: {           src: "/images/services/Rooftop Cell Towers Above the Suburbs(1).png",           alt: "Telecommunications tower with antennas and equipment",         },
         description:
           "Outdoor mobile networks are designed to cover wide areas, not every floor, stairwell or basement. Reinforced concrete, energy-efficient glazing, metal cladding and other building materials can weaken signals before they reach the people and devices inside.",
         bullets: [
@@ -1945,7 +1957,10 @@ export const services: Service[] = [
         id: "fibre-construction-overview",
 
         title: "What Fibre Construction Includes",
-
+        image: {
+          src: "/images/services/imageswefew.jpeg",
+          alt: "Telecommunications tower with antennas and equipment",
+        },
         description:
           "Fibre construction is the physical creation of a fibre route. It covers preparing the route, installing ducts and chambers, placing cables, connecting fibres, testing the completed links and restoring affected surfaces. Depending on the project, work may use underground, aerial or in-building installation methods.",
 
