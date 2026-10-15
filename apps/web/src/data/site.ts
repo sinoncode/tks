@@ -12,7 +12,7 @@ export const site = {
   /** Direct contact channels shown next to the forms. */
   contact: {
     email: 'upendra@tks-us.com',
-    phones: ['(405) 469 676 6531'] as const,
+    phones: [' +1 469 676 6531'] as const,
     address: '1303 W. Suite Number: 130, Walnut Hill, Irving TX 75038',
     note: 'Prefer email? Write to us directly and attach any project documents.',
   },
